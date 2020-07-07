@@ -1,0 +1,79 @@
+
+body {
+	background: url("../img/bg.png");
+	margin-bottom: 0;
+}
+
+.top {
+	background: #3bfa1e;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	
+	min-width: 5000px;
+	min-height: 40px;
+}
+
+.mainHeader {
+	margin-top: 0;
+	padding-top: 35px;
+
+	text-align: center;
+	color: #fc007a;
+
+}
+
+p {
+	color: #03009e;
+}
+
+.list {
+	font-size: 20px;
+	
+}
+
+
+.ourPhysicians:after {			/* Clearfix для того, чтобы дальше верстать без учета всех float в этом контейнере */
+	content: ' ';
+	display: block;
+	clear: both;
+	height: 0;
+}
+
+
+.img1 {				/* Этот элемент будет обтекаться другими элементами справа */
+	float: left;
+	width: 300px;
+}
+
+.text1 {
+	margin-top: 0;
+	margin-left: 15px;
+	float: left;	/* Этот элемент будет обтекаться другими элементами справа */
+	width: 60%;		/* Чтобы уместить этот элемент в один ряд, мы ограничиваем его размер */
+	min-height: 363px;	/* Это я задал минимальную высоту, чтобы следующий элемент начался с новой строки (по сути я подогнал высоту текста под высоту чебурашки)*/
+}
+
+.img2 {	
+	margin-top: 0;
+	float: left;	/* Этот элемент будет обтекаться другими элементами справа */
+	width: 300px;	/* Это я просто подогнал гену под чебурашку */
+}
+
+.text2 {
+	margin-top: 3px;
+	margin-left: 15px;
+	float: left;	/* Этот элемент будет обтекаться другими элементами справа */
+	width: 60%;		/* Чтобы уместить этот элемент в один ряд, мы ограничиваем его размер */
+}
+
+
+
+.footer {
+	background: #00d688;
+	margin-left: -8px;
+	margin-right: -8px;
+	min-height: 100px;
+
+}
